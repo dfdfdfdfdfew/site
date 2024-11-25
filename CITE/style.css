@@ -1,0 +1,135 @@
+#container {
+    width: auto;
+    background: #E6E6FA;
+    
+  
+   display: flex;
+   flex-direction: column; /*row column*/
+   /*justify-content: space-around;*/
+   align-items: stretch;
+  }
+  
+  #header {
+    background: #E6E6FA;
+   
+    margin: 0px;
+    padding: 5px;
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+  
+    #navigation {
+    /*background: rgb(246, 249, 250);
+    border: 1px solid silver;*/
+    margin: 3px;
+    padding: 5px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    }
+  
+    .content {
+    background:#E6E6FA ;
+   
+    margin: 3px;
+    padding: 5px;
+    flex:5;
+    display: flex;
+    flex-direction: row; /* row-reverse; змінює місцями блоки*/
+    }
+  
+    #footer {
+    background:#E6E6FA;
+   
+    margin: 3px;
+    padding: 5px;
+    flex:2;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    }
+  
+  
+    .leftpanel {
+   /* background: rgb(177, 181, 182);*/
+    
+    margin: 3px;
+    padding: 5px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .centerpanel {
+    /* background: rgb(177, 181, 182);*/
+    
+    margin: 3px;
+    padding: 5px;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .rightpanel {
+    /* background: rgb(177, 181, 182);*/
+    
+    margin: 3px;
+    padding: 5px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+  
+    /*   меню  ----------------*/
+  
+  ul, li {
+  margin: 0;
+  padding: 0;
+  }
+  ul {
+  list-style: none;
+  }
+  li {
+  float: left;
+  width: auto;
+  }
+  a.menu {
+  background: #30A6E6;
+  color: #FFFFFF;
+  /*display: block; */
+  font: bold 13px sans-serif;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  }
+  li:hover a {
+  background: #000000;
+  }
+  
+  
+  /* Налаштування для текста*/
+  
+  p {
+    text-align: justify;/*left right center*/
+    margin-right: 30px;
+    margin-left: 20px;
+    font-family: consolas; /*выберіть свій шрифт*/
+    font-size: 15px;
+    line-height: 30px;/* відстань між строками*/
+  }
+  /* Додайте самостійно налаштування для заголовків h1 h2...*/
+  h1 {
+    
+  }
+  h2 {
+  }
+  
+  
